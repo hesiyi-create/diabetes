@@ -60,7 +60,7 @@ input_data = pd.DataFrame({
     'exercise': [exercise_val],
     'bmi': [bmi],
     'residence': [residence_val],
-    '年均可支配收入': [gdp],
+    'gdp': [gdp],
     'income': [income],
     'pm25': [pm25]
 })
@@ -103,3 +103,4 @@ if st.button("风险因素识别"):
 # ======================
 st.markdown("---")
 st.caption("本模型基于中国老年健康影响因素跟踪调查（CLHLS）数据训练，仅用于科研与健康参考。")
+
